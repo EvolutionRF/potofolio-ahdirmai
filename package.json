@@ -1,0 +1,11 @@
+{
+    "devDependencies": {
+        "autoprefixer": "^10.4.11",
+        "postcss": "^8.4.16",
+        "tailwindcss": "^3.1.8"
+    },
+
+    "scripts": {
+        "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/stlye.css --watch"
+    }
+}
